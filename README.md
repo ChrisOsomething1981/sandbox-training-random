@@ -1,6 +1,16 @@
 # Welcome to this Sandbox
 
 ## Random tests with Typescript and using Playwright
+- Project One : ([Open webpage + Take a screenshot w/ time frame and IF no folder exist then create one](https://github.com/ChrisOsomething1981/sandbox-training-random/tree/main/Gnome%20Weather%20Homepage%20Screenshot))
+- Project Two :
+- Project Three :
+- Project Four :
+- Project Five :
+- Project Six :
+- Project Seven :
+- Project Eight :
+
+## Why-What-How 
 
 ### Embracing Dyslexia and Transforming into an Automation Expert with TypeScript and Playwright
 
