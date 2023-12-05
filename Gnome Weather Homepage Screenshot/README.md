@@ -1,4 +1,4 @@
-# sandbox-training-random
+# Homepage Screenshot with Timestamp
 This is area where I create / learn the funtions and diffent areas while creating and learning
 
 
