@@ -7,7 +7,9 @@ const screenshotFolder = 'screenshots';
 test('should open the Gnome Weather homepage and take a screenshot with timestamped filename', async ({ page }) => {
   let screenshotStatus = 'Success';
   let testStatus = 'Passed';
-  let statusCode = 200;
+
+  
+  fetch("https://wiki.gnome.org/Apps/Weather/").then(response => {  console.log(response.status, response.ok); });
 
   // Check if the screenshot folder exists
   if (!existsSync(screenshotFolder)) {
@@ -30,6 +32,10 @@ test('should open the Gnome Weather homepage and take a screenshot with timestam
     console.error('Error taking screenshot:', error);
   }
 
+   // Close the browser context
+   await page.close();
+   
+   //console.log(`Test status: ${testStatus} (Status code: ${statusCode})`)
   console.log(`Screenshot status: ${screenshotStatus}`);
-  console.log(`Test status: ${testStatus} (Status code: ${statusCode})`);
+  
 });
